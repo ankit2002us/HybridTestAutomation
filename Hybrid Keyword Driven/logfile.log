@@ -1,0 +1,28 @@
+2021-11-09 23:34:56,377 INFO  [Log] **************************************************************************************** 
+2021-11-09 23:34:56,378 INFO  [Log] **************************************************************************************** 
+2021-11-09 23:34:56,378 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 LogIn_01       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2021-11-09 23:34:56,378 INFO  [Log] **************************************************************************************** 
+2021-11-09 23:34:56,378 INFO  [Log] **************************************************************************************** 
+2021-11-09 23:34:56,381 ERROR [Log] Class Utils | Method getCellData | Exception desc : Cannot invoke "org.apache.poi.xssf.usermodel.XSSFRow.getCell(int)" because the return value of "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" is null 
+2021-11-09 23:34:56,384 INFO  [Log] Opening Browser 
+2021-11-09 23:34:59,708 INFO  [Log] Chrome browser started 
+2021-11-09 23:34:59,909 INFO  [Log] Navigating to URL 
+2021-11-09 23:35:05,253 INFO  [Log] Clicking on link txt link_SignIn 
+2021-11-09 23:35:06,495 INFO  [Log] Entering the text in txtbx_Email 
+2021-11-09 23:35:07,327 INFO  [Log] Entering the text in txtbx_Password 
+2021-11-09 23:35:07,714 INFO  [Log] Clicking on Webelement btn_SignIn 
+2021-11-09 23:35:17,775 ERROR [Log] Not able to click --- no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='Sign in']"}
+  (Session info: chrome=95.0.4638.69)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-O3JU3DN', ip: '192.168.29.172', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50321}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d41819bcd2bc55396065d46816d1132
+*** Element info: {Using=xpath, value=.//*[@id='Sign in']} 
+2021-11-09 23:35:17,897 INFO  [Log] Closing the browser 
+2021-11-09 23:35:18,633 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2021-11-09 23:35:18,633 INFO  [Log] X 
+2021-11-09 23:35:18,633 INFO  [Log] X 
+2021-11-09 23:35:18,633 INFO  [Log] X 
+2021-11-09 23:35:18,633 INFO  [Log] X 

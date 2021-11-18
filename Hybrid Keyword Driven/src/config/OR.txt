@@ -1,0 +1,27 @@
+# Home Page Objects
+link_SignIn = Sign in
+
+
+# Login Page Object
+txtbx_Email=.//*[@id='Email']
+txtbx_Password=.//*[@id='PasswordValue']
+btn_SignIn=.//*[@id='submit-signin-local']
+
+#Dynamic Objects
+txtbx_DynamicsEmail=//body//input[@name='loginfmt']
+btn_Next= //body//input[@type='submit']
+txtbx_DynamicsPassword=//body//input[@name='passwd']
+btn_DynamicsSignIn= //body//input[@id='idSIButton9']
+btn_DynamicsYes = //body//input[@id='idSIButton9']
+SelectApptype=/html/body/div/div/div[5]/div[2]/div[2]/div[1]/a
+#SelectApptype =input#app-search-input
+link_ClickApplications = //span[text()='Applications']
+link_ClickNewAppliction = //button[@aria-label='New']
+txt_PartyName=//input[@aria-label ='Party, Lookup']
+select_Partyname =(//ul[contains(@id,'fieldControl-LookupResultsDropdown_eo_partyid')])[1]/li
+txt_PersonName = //input[@aria-label ='Person, Lookup']
+select_PersonName =(//ul[contains(@id,'personid.fieldControl-LookupResultsDropdown_eo_personid')])[1]
+insert_Title =(//textarea[contains(@id,'id-266042df')])[1]
+select_ApplicationType = //select[@aria-label= 'Application Type']
+save_Application = //img[@title='Save']
+get_ApplictionId=//h1[@data-id='header_title']
